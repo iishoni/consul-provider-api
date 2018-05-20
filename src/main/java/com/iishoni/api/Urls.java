@@ -3,15 +3,15 @@ package com.iishoni.api;
 public interface Urls {
 
     /**
-     * 用户
+     * 后台用户
      */
-    interface User {
-        String ROOT = "/user";
-        String GET_USER_LIST = "";
-        String GET_USER_INFO = "/{userId}";
-        String SAVE_USER = "";
-        String UPDATE_USER = "";
-        String DELETE_USER = "/{userId}";
+    interface Admin {
+        String ROOT = "/admin";
+        String GET_ADMIN_LIST = "";
+        String GET_ADMIN_INFO = "/{adminId}";
+        String SAVE_ADMIN = "";
+        String UPDATE_ADMIN = "";
+        String DELETE_ADMIN = "/{adminId}";
     }
 
 }
